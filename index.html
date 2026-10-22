@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divyanshi Agarwal | Personal Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top">Divyanshi Agarwal</a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button type="button" id="theme-toggle" aria-pressed="false">
+          Dark mode
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div class="intro-block" id="top">
+        <div class="profile-photo">
+          <span class="photo-fallback" aria-hidden="true">DA</span>
+          <img
+            id="profile-image"
+            src="images/profile.jpg"
+            alt="Portrait of Divyanshi Agarwal"
+            hidden
+          />
+        </div>
+
+        <div class="intro-text">
+          <h1>Hi, I am Divyanshi Agarwal</h1>
+          <p class="tagline">
+            B.Tech CSE (AI &amp; ML) Student | JECRC University, Jaipur
+          </p>
+          <p class="intro">
+            I am a beginner Artificial Intelligence and Machine Learning
+            student, building a strong foundation in programming, problem
+            solving, and core computer science. I am learning to turn ideas
+            into simple, useful projects and using this portfolio to share my
+            progress.
+          </p>
+          <p class="photo-hint">
+            To show your photograph, add a file named
+            <code>profile.jpg</code> inside an <code>images</code> folder in
+            this project.
+          </p>
+        </div>
+      </div>
+
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About Me</h2>
+        <p>
+          My name is Divyanshi Agarwal. I am pursuing B.Tech in Computer
+          Science Engineering with a specialization in Artificial Intelligence
+          and Machine Learning at JECRC University, Jaipur, in collaboration
+          with Xebia.
+        </p>
+        <p>
+          I am early in my learning journey. I enjoy understanding how programs
+          work, practicing problem solving, and exploring how AI and ML can be
+          used in real applications. My current focus is strengthening the
+          basics and growing through coursework and personal practice.
+        </p>
+      </section>
+
+      <section id="education" aria-labelledby="education-heading">
+        <h2 id="education-heading">Education</h2>
+        <ul class="education-list">
+          <li>
+            <strong>B.Tech in Computer Science Engineering (AI &amp; ML)</strong>
+            <p>JECRC University, Jaipur, in collaboration with Xebia</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Technical Skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>C++ (Beginner)</li>
+          <li>Python (Beginner)</li>
+          <li>GitHub (Beginner)</li>
+          <li>Problem Solving</li>
+        </ul>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+        <div class="project-controls">
+          <input
+            type="text"
+            id="project-search"
+            placeholder="Search projects..."
+            aria-label="Search projects"
+          />
+
+          <select id="technology-filter" aria-label="Filter by technology">
+            <option value="all">All Technologies</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+          </select>
+        </div>
+
+        <p id="project-count"></p>
+        <p id="no-projects" hidden>No projects found.</p>
+        
+<div class="project-controls">
+  <input
+    type="search"
+    id="project-search"
+    placeholder="Search by project name or technology..."
+    aria-label="Search projects by name or technology"
+  />
+
+  <button type="button" id="theme-toggle">
+    Switch to Dark Mode
+  </button>
+
+  <p id="project-results" aria-live="polite"></p>
+</div>
+        <ul class="projects-list">
+          <li
+            class="project-card"
+            data-title="Personal Portfolio Website"
+            data-tech="HTML CSS JavaScript"
+          >
+            <a href="index.html">
+              <strong>Personal Portfolio Website</strong>
+            </a>
+            <p>
+              A personal portfolio website built using HTML, CSS, and
+              JavaScript to introduce myself and showcase my skills and
+              projects.
+            </p>
+          </li>
+          <li
+            class="project-card"
+            data-title="House Price Prediction"
+            data-tech=""
+          >
+            <strong>House Price Prediction</strong>
+            <p>
+              Listed from my existing portfolio. I will add a description and
+              project link when I am ready.
+            </p>
+          </li>
+          ```
+      <li
+        class="project-card"
+        data-title="Python Programs Collection"
+        data-tech="Python"
+      >
+        <a
+          href="https://github.com/divyanshia294-bot/python-programs-collection"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <strong>Python Programs Collection</strong>
+        </a>
+        <p>
+          A collection of beginner-friendly Python programs, including
+          factorial calculation, Fibonacci series, and converting fields
+          and values into a dictionary.
+        </p>
+        <p><strong>Technologies:</strong> Python</p>
+        <a
+          href="https://github.com/divyanshia294-bot/python-programs-collection"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub
+        </a>
+      </li>
+      
+<li
+class="project-card"
+data-title="Messy Python Code Improvement"
+data-tech="Python"
+>
+<a
+  href="https://github.com/divyanshia294-bot/messy-python-code-improvement"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <strong>Messy Python Code Improvement</strong>
+</a>
+<p>
+  Improved Python code readability and organization using meaningful
+  names, functions, docstrings, and better structure.
+</p>
+<p><strong>Technologies:</strong> Python</p>
+<a
+  href="https://github.com/divyanshia294-bot/messy-python-code-improvement"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  View on GitHub
+</a>
+<li
+  class="project-card"
+  data-title="Bug Fixing Using Cursor AI"
+  data-tech="Python Cursor"
+>
+  <a
+    href="https://github.com/divyanshia294-bot/bug-fixing-using-cursor-ai"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <strong>Bug Fixing Using Cursor AI</strong>
+  </a>
+
+  <p>
+    A Python debugging project that fixes a division-by-zero error
+    by handling empty lists safely and testing different inputs.
+  </p>
+
+  <p><strong>Technologies:</strong> Python, Cursor</p>
+
+  <a
+    href="https://github.com/divyanshia294-bot/bug-fixing-using-cursor-ai"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View on GitHub
+  </a>
+</li>
+</li>
+
+<li
+  class="project-card"
+  data-title="Interactive Quiz Application"
+  data-tech="HTML CSS JavaScript"
+>
+  <a
+    href="https://github.com/divyanshia294-bot/interactive-quiz-application"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <strong>Interactive Quiz Application</strong>
+  </a>
+
+  <p>
+    An interactive quiz application with multiple-choice questions,
+    instant feedback, score tracking, and a final results screen.
+  </p>
+
+  <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+  <a
+    href="https://github.com/divyanshia294-bot/interactive-quiz-application"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View on GitHub
+  </a>
+</li>
+
+<li
+  class="project-card"
+  data-title="Book Reading List Application"
+  data-tech="HTML CSS JavaScript"
+>
+  <a
+    href="https://github.com/divyanshia294-bot/book-reading-list-application"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <strong>Book Reading List Application</strong>
+  </a>
+
+  <p>
+    A simple web application to manage a personal reading list.
+    Add books, mark them as read or unread, and remove books.
+  </p>
+
+  <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+  <a
+    href="https://github.com/divyanshia294-bot/book-reading-list-application"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View on GitHub
+  </a>
+</li>
+
+```
+
+        </ul>
+      </section>
+
+      
+<section id="contact" aria-labelledby="contact-heading">
+  <h2 id="contact-heading">Contact</h2>
+  <div class="contact-card">
+    <p class="contact-name">Divyanshi Agarwal</p>
+    <p>
+      Explore my coding projects and learning journey on GitHub.
+    </p>
+    <a
+      href="https://github.com/divyanshia294-bot"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Visit My GitHub Profile
+    </a>
+  </div>
+</section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        &copy; <span id="year"></span> Divyanshi Agarwal. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
